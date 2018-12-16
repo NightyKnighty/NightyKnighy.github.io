@@ -1,7 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700); /*text fonts*/
+
+html {
+  background: url(https://www.imgbase.info/images/safe-wallpapers/anime/fate_stay_night/10756_fate_stay_night.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} /* background image */
 
 body {
-  color: #555;
+  color: #FFFAFA;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -43,13 +51,12 @@ body {
   margin: auto;
 }
 
-.post-container:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
 #footer {
   background-color: #56699E;
   padding: 50px 0;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .column {
@@ -84,8 +91,8 @@ a:hover {
 }
 
 .post-author img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   vertical-align: middle;
 }
 
@@ -110,9 +117,27 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-  color: #333;
+  color: #a7d4f5;
 }
 
 p {
   line-height: 1.5;
+}
+
+.box{
+  position: relative;
+  float: left;
+}
+.root-folder {
+  padding-left: 10px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.folders li {
+  display: block
+  float: left;
+  font-size: 20px;
+  text-align: left;
 }

@@ -3,7 +3,7 @@
 
 /* background image */
 html {
-  background: url(https://www.imgbase.info/images/safe-wallpapers/anime/fate_stay_night/10756_fate_stay_night.jpg) no-repeat center center fixed;
+  background: url("saber background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ html {
 }
 
 body, #root-folder {
-  color: #FFFAFA;
+  color: #FFFFFF;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -58,6 +58,7 @@ body, #root-folder {
 .container, .post-container {
   max-width: 1000px;
   margin: auto;
+  text-align: justify;
 }
 
 .column {
